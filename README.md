@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RMS Landing Page Documentation  
 
-## Getting Started
+## 📌 Overview  
+The **RMS Landing Page** is a responsive and modern web page built using **Next.js**. It serves as the front-facing interface for the RMS platform, providing key information, navigation, and user engagement features.  
 
-First, run the development server:
+## 🛠️ Technologies Used  
+- **Next.js** – Framework for React-based SSR and SEO optimization  
+- **Tailwind CSS** – Styling for a clean and responsive UI  
+- **Lucide-react** – Icon set for social media and navigation  
+- **Vercel** – Deployment platform for hosting the project  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📂 Project Structure  
+```plaintext
+/rms-landing-page  
+│── /components       # Reusable UI components   
+│── /public           # Static assets (images, icons, etc.)  
+│── /styles           # Global and component-specific styles  
+│── package.json      # Project dependencies and scripts  
+│── next.config.js    # Next.js configuration file  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌟 Features  
+✅ **Hero Section** – Engaging welcome message with a call-to-action  
+✅ **Categories Section** – Displays job categories dynamically  
+✅ **Contact Form** – Allows users to reach out about questions
+✅ **Responsive Design** – Works across all screen sizes  
+✅ **Footer with Social Links** – Connect with the brand on different platforms  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment  
+The project is hosted on **Vercel** for fast and efficient delivery. You can access it here:  
+🔗 [Hosted URL](https://godp-rms.vercel.app/)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📜 Installation & Setup  
+To run the project locally:  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Solomon/rms-landing-page.git
+   ```
+2. Navigate into the project folder:  
+   ```bash
+   cd rms-landing-page
+   ```
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```
+4. Start the development server:  
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit **http://localhost:3000/**  
 
-## Learn More
+## ✨ Contribution & Future Improvements  
+- Improve accessibility (ARIA attributes, better contrast)  
+- Optimize image loading with `next/image` best practices  
+- Add Hydration loader for better user experience  
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
