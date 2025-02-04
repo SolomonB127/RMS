@@ -20,7 +20,7 @@ const Categories = () => {
                 {categories.map((item, i) => (
                     <button
                         key={i}
-                        className='w-full max-w-[250px] h-[180px] flex flex-col items-center justify-center p-4 bg-white hover:bg-[#fcc680] focus:bg-[#F88F09] border border-gray-300 rounded-lg shadow-md transition-all duration-300 focus:outline-none'
+                        className='w-full max-w-[250px] h-[180px] flex flex-col items-center justify-center p-4 bg-white hover:bg-[#fcc680] focus:bg-[#F88F09] border border-gray-300 rounded-lg shadow-md transition-all duration-300 focus:outline-none cursor-pointer'
                         aria-label={item.title}
                     >
                         <Image src={item.icon} alt={item.title} width={52} height={52} className='mb-3' />
