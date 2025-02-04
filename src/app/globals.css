@@ -29,10 +29,20 @@ button{
 
 .trustees h2{
   color: #4f4f4f;
-  font-family: 24px;
+  font-size: 24px;
   line-height: 36px;
   font-weight: 600;
   text-align: center;
-  /* margin-top: 3px; */
   font-family: var(--poppins), sans-serif;
+}
+
+.pr-con{
+  font-family: var(--poppins), sans-serif;
+}
+
+.pr-con h2{
+  color: #000;
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 600;
 }
