@@ -46,3 +46,7 @@ button{
   line-height: 54px;
   font-weight: 600;
 }
+
+.categories{
+  font-family: var(--poppins), sans-serif;
+}
