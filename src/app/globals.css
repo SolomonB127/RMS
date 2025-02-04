@@ -22,3 +22,7 @@ body {
 button{
   font-family: var(--poppins), sans-serif;
 }
+
+.hero-section{
+  font-family: var(--poppins), sans-serif;
+}
