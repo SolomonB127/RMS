@@ -12,7 +12,7 @@ const Navbar = () => {
     }
 
     return (
-        <header className="sticky top-0 z-50 border-b border-gray-400 shadow-lg backdrop-blur-md">
+        <header className="sticky top-0 z-50 backdrop-blur-md">
             <nav aria-label="Main Navigation">
                 <div className='mx-auto flex max-w-7xl items-center justify-between p-4'>
                     {/* Logo */}
